@@ -42,6 +42,7 @@ public static Logger log = LogManager.getLogger(base.class.getName());
 		lp2.getEmail().sendKeys(username);
 		lp2.getpass().sendKeys(pass);
 		System.out.println(text);
+		System.out.println("Test modified");
 		
 		lp2.getlogin().click();
 	}

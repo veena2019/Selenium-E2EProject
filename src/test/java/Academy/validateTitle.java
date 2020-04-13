@@ -32,6 +32,7 @@ public static Logger log = LogManager.getLogger(validateTitle.class.getName());
 		Assert.assertEquals(lp.gettitle().getText(), "FEATURED COURSES");
 	//	log.info("successfully validated Tesxt message");
 		 System.out.println("Test completed");
+		 System.out.println("Added one more line");
 	}
 	
 	@AfterTest
