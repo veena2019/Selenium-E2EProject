@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53983" started-at="2020-04-13T10:33:03 IST" finished-at="2020-04-13T10:33:57 IST">
+    <groups>
+    </groups>
+    <test name="validatenavigatn" duration-ms="12535" started-at="2020-04-13T10:33:03 IST" finished-at="2020-04-13T10:33:16 IST">
+      <class name="Academy.validatenavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validatenavigationBar@6c3708b3]" name="initialize" is-config="true" duration-ms="12319" started-at="2020-04-13T10:33:03 IST" finished-at="2020-04-13T10:33:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:Academy.validatenavigationBar@6c3708b3]" name="basepagenavigation" duration-ms="85" started-at="2020-04-13T10:33:16 IST" finished-at="2020-04-13T10:33:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Academy.validatenavigationBar@6c3708b3]" name="closebrowser" is-config="true" duration-ms="77" started-at="2020-04-13T10:33:16 IST" finished-at="2020-04-13T10:33:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Academy.validatenavigationBar -->
+    </test> <!-- validatenavigatn -->
+    <test name="HomePageT" duration-ms="34761" started-at="2020-04-13T10:33:16 IST" finished-at="2020-04-13T10:33:51 IST">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@7bedc48a]" name="initialize" is-config="true" duration-ms="2498" started-at="2020-04-13T10:33:16 IST" finished-at="2020-04-13T10:33:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@7bedc48a]" name="basepagenavigation" duration-ms="21617" started-at="2020-04-13T10:33:18 IST" data-provider="getData" finished-at="2020-04-13T10:33:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@7bedc48a]" name="basepagenavigation" duration-ms="10522" started-at="2020-04-13T10:33:40 IST" data-provider="getData" finished-at="2020-04-13T10:33:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Academy.HomePage@7bedc48a]" name="closebrowser" is-config="true" duration-ms="114" started-at="2020-04-13T10:33:51 IST" finished-at="2020-04-13T10:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- HomePageT -->
+    <test name="validateTitleT" duration-ms="6627" started-at="2020-04-13T10:33:51 IST" finished-at="2020-04-13T10:33:57 IST">
+      <class name="Academy.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@7c9d8e2]" name="initialize" is-config="true" duration-ms="6471" started-at="2020-04-13T10:33:51 IST" finished-at="2020-04-13T10:33:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:Academy.validateTitle@7c9d8e2]" name="basepagenavigation" duration-ms="65" started-at="2020-04-13T10:33:57 IST" finished-at="2020-04-13T10:33:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Academy.validateTitle@7c9d8e2]" name="closebrowser" is-config="true" duration-ms="90" started-at="2020-04-13T10:33:57 IST" finished-at="2020-04-13T10:33:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- validateTitleT -->
+  </suite> <!-- Suite -->
+</testng-results>
